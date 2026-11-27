@@ -1,0 +1,25 @@
+{
+  "name": "minilab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MiniLab: tô màu, quét tranh và xem nhân vật sống dậy. Miễn phí, xử lý trên thiết bị, có tài khoản bảo vệ.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && vite preview --outDir dist --port 4173",
+    "check": "node scripts/check-secrets.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@phosphor-icons/core": "^2.1.1",
+    "vite": "^8.4.0"
+  }
+}
